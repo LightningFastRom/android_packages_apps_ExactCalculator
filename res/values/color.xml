@@ -54,7 +54,7 @@
     <color name="pad_button_text_color">#333</color>
 
     <!-- Text color for a button in the advanced pad. -->
-    <color name="pad_button_advanced_text_color">#b3000000</color>
+    <color name="pad_button_advanced_text_color">#ffffff</color>
 
     <!-- Ripple color when a button is pressed in a pad. -->
     <color name="pad_button_ripple_color">#33000000</color>
@@ -63,6 +63,6 @@
     <color name="pad_button_advanced_ripple_color">#1A000000</color>
 
     <!-- Background color for empty history view. -->
-    <color name="empty_history_color">#fff2f2f2</color>
+    <color name="empty_history_color">#E0E0E0</color>
 
 </resources>
