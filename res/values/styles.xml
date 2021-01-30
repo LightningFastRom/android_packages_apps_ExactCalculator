@@ -25,6 +25,7 @@
 		<item name="android:navigationBarColor">@color/calculator_primary_color</item>
 		<item name="android:statusBarColor">@color/calculator_primary_color</item>
 		<item name="android:windowSoftInputMode">stateAlwaysHidden</item>
+		<item name="android:windowBackground">@color/calculator_primary_color</item>
 	</style>
 	
 	<style name="Theme.Calculator">
@@ -33,8 +34,18 @@
 		<item name="android:windowContentOverlay">@null</item>
 		<item name="android:windowNoTitle">true</item>
 		<item name="android:layoutDirection">ltr</item>
+		<item name="android:windowBackground">@color/calculator_primary_color</item>
 		<item name="android:navigationBarColor">@color/calculator_primary_color</item>
 	</style>
+	
+	<style name="LaunchTheme" parent="Theme">
+	    <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">false</item>
+		<item name="android:windowLightStatusBar">false</item>
+		<item name="android:windowLightNavigationBar">false</item>
+		<item name="android:windowBackground">@color/calculator_primary_color</item>
+    </style>
 	
 	<style name="Theme.Licenses">
 		<item name="android:title">@string/menu_licenses</item>
