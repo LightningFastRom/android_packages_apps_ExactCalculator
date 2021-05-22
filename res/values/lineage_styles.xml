@@ -16,5 +16,9 @@
   -->
 
 <resources>
-    <style name="Theme.Toolbar" parent="@android:style/ThemeOverlay.Material.ActionBar" />
+    <style name="Theme.Toolbar" parent="@android:style/ThemeOverlay.Material.Dark.ActionBar">
+		<item name="android:colorControlNormal">@android:color/white</item>
+		<item name="android:popupBackground">@color/pad_button_text_color</item>
+  	</style>
+	<style name="Theme.history.popupTheme" parent="@android:style/ThemeOverlay.Material.Dark" />
 </resources>

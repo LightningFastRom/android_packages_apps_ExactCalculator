@@ -17,29 +17,4 @@
 
 <resources>
 
-    <style name="Theme" parent="@android:style/Theme.Material.Light">
-        <item name="android:colorPrimary">@color/calculator_primary_color</item>
-        <item name="android:colorAccent">@color/calculator_accent_color</item>
-        <item name="android:navigationBarColor">@*android:color/material_grey_900</item>
-        <item name="android:statusBarColor">@color/calculator_accent_color</item>
-        <item name="android:windowSoftInputMode">stateAlwaysHidden</item>
-        <item name="android:navigationBarColor">@color/navigationBar_color</item>
-        <item name="android:navigationBarDividerColor">@color/navigationBar_divider</item>
-        <item name="android:windowLightStatusBar">false</item>
-        <item name="android:windowLightNavigationBar">true</item>
-    </style>
-
-    <style name="Theme.Calculator">
-        <item name="android:windowActionBar">false</item>
-        <item name="android:windowActionModeOverlay">true</item>
-        <item name="android:windowContentOverlay">@null</item>
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:layoutDirection">ltr</item>
-        <item name="android:navigationBarColor">@*android:color/material_grey_900</item>
-    </style>
-
-    <style name="Theme.Licenses">
-        <item name="android:title">@string/menu_licenses</item>
-    </style>
-
 </resources>

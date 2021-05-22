@@ -20,7 +20,7 @@
     <item android:id="@android:id/mask">
         <shape android:shape="rectangle">
             <corners android:radius="4dip" />
-            <solid android:color="@android:color/white" />
+            <solid android:color="@*android:color/material_grey_900" />
         </shape>
     </item>
     <item>
@@ -30,7 +30,7 @@
             <item android:state_selected="true">
                 <shape android:shape="rectangle">
                     <corners android:radius="4dip" />
-                    <solid android:color="@color/pad_button_advanced_ripple_color" />
+                    <solid android:color="@*android:color/material_grey_900" />
                 </shape>
             </item>
         </selector>

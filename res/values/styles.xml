@@ -16,8 +16,8 @@
  -->
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
-	
-	<style name="Theme" parent="@android:style/Theme.Material.Light">
+
+	<style name="Theme" parent="@android:style/Theme.Material">
 		<item name="android:windowLightStatusBar">false</item>
 		<item name="android:windowLightNavigationBar">false</item>
 		<item name="android:colorPrimary">@color/calculator_primary_color</item>
@@ -27,7 +27,7 @@
 		<item name="android:windowSoftInputMode">stateAlwaysHidden</item>
 		<item name="android:windowBackground">@color/calculator_primary_color</item>
 	</style>
-	
+
 	<style name="Theme.Calculator">
 		<item name="android:windowActionBar">false</item>
 		<item name="android:windowActionModeOverlay">true</item>
@@ -37,7 +37,7 @@
 		<item name="android:windowBackground">@color/calculator_primary_color</item>
 		<item name="android:navigationBarColor">@color/calculator_primary_color</item>
 	</style>
-	
+
 	<style name="LaunchTheme" parent="Theme">
 	    <item name="android:windowDrawsSystemBarBackgrounds">false</item>
         <item name="android:windowActionBar">false</item>
@@ -46,7 +46,7 @@
 		<item name="android:windowLightNavigationBar">false</item>
 		<item name="android:windowBackground">@color/calculator_primary_color</item>
     </style>
-	
+
 	<style name="Theme.Licenses">
 		<item name="android:title">@string/menu_licenses</item>
 	</style>
@@ -59,9 +59,7 @@
 		<item name="android:textAlignment">viewEnd</item>
 		<item name="android:fontFeatureSettings">tnum, cv03, cv04</item>
 	</style>
-	
-	<style name="Theme.Toolbar" parent="@android:style/Theme.Material.Light" />
-	
+
 	<style name="DisplayTextStyle.Formula">
 		<item name="android:paddingTop">@dimen/formula_padding_top</item>
 		<item name="android:paddingBottom">@dimen/formula_padding_bottom</item>
