@@ -16,20 +16,10 @@
 
 android_app {
     name: "ExactCalculator",
+	
+	srcs: ["src/**/*.java"],
 
     resource_dirs: ["res"],
-
-    sdk_version: "current",
-
-    overrides: ["Calculator"],
-
-    srcs: ["src/**/*.java"],
-
-    optimize: {
-        proguard_flags_files: ["proguard.flags"],
-    },
-
-    product_specific: true,
 
     static_libs: [
         "cr",
@@ -37,4 +27,15 @@ android_app {
         "androidx.gridlayout_gridlayout",
         "androidx.recyclerview_recyclerview",
     ],
+	
+    sdk_version: "current",
+
+    overrides: ["Calculator"],
+
+    product_specific: true,
+	
+    optimize: {
+        proguard_flags_files: ["proguard.flags"],
+    },
+
 }
