@@ -16,4 +16,13 @@
   -->
 
 <ripple xmlns:android="http://schemas.android.com/apk/res/android"
-    android:color="@color/pad_button_advanced_ripple_color" />
+    android:color="@color/pad_button_ripple_color">
+    <item android:id="@android:id/mask">
+        <shape android:shape="rectangle">
+            <corners android:radius="10dip" />
+            <solid android:color="@color/pad_button_advanced_ripple_color" />
+        </shape>
+    </item>
+</ripple>
+	
+	

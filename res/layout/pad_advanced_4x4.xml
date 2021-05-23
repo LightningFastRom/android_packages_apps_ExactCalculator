@@ -28,6 +28,8 @@
         android:id="@+id/toggle_inv"
         style="@style/PadButtonStyle.Advanced.Text"
         android:background="@drawable/pad_button_inverse_background"
+		android:backgroundTint="@color/pad_numeric_button_background_color"
+		android:backgroundTintMode="multiply"
         android:contentDescription="@string/desc_inv_off"
         android:text="@string/inv"
         app:layout_row="0"

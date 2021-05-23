@@ -19,8 +19,8 @@
     android:color="@color/pad_button_advanced_ripple_color">
     <item android:id="@android:id/mask">
         <shape android:shape="rectangle">
-            <corners android:radius="4dip" />
-            <solid android:color="@*android:color/material_grey_900" />
+            <corners android:radius="10dip" />
+            <solid android:color="@color/pad_button_advanced_ripple_color" />
         </shape>
     </item>
     <item>
@@ -29,8 +29,8 @@
             android:exitFadeDuration="@android:integer/config_longAnimTime">
             <item android:state_selected="true">
                 <shape android:shape="rectangle">
-                    <corners android:radius="4dip" />
-                    <solid android:color="@*android:color/material_grey_900" />
+                    <corners android:radius="10dip" />
+                    <solid android:color="@color/pad_button_advanced_ripple_color" />
                 </shape>
             </item>
         </selector>
