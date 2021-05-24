@@ -27,12 +27,12 @@ android_app {
         "androidx.gridlayout_gridlayout",
         "androidx.recyclerview_recyclerview",
     ],
-	
-    sdk_version: "current",
 
     overrides: ["Calculator"],
 
-    product_specific: true,
+    sdk_version: "current",
+
+    product_specific: false,
 	
     optimize: {
         proguard_flags_files: ["proguard.flags"],
